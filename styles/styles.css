@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+} 
+li{ 
+    font-size: 14px;
+    font-style: italic;  
+    font-weight: normal;
+}
+
+a{color: maroon;
+text-decoration: none;}   
+a:hover{
+    text-decoration: underline; 
+    /* font-weight: bold; 클릭하면 크게해주는거
+    font-size: 18px; */}
+
+a:visited{color: blue;} 색갈바꿔줌 들어간링크
+.resumelist{font-weight: bold;
+    font-style: normal ;
+}
+.underline{
+    text-decoration: underline;}
+.justify{text-align: justify;}    
+.homebg{
+    background-image: url('../images/5518909.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+.bold{font-weight: bold;}
+
+.box1{border-width: 1px;
+    border-style: solid;
+    border: 1px solid red}
+.box2{
+    padding: 5px;;}
+.box3{
+    margin: 50px;}
+.anchor{
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; /*same height as header*/
+    visibility: hidden;
+      }            
+.eymove{position: absolute;
+    right: 800px;
+    bottom: 320px;}
+.intro{position: absolute;
+    right: 570px;
+    bottom: 400px;}    
+.home{position: absolute;
+    right: 1000px;
+    bottom: 250px;}     
